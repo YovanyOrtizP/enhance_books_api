@@ -1,4 +1,31 @@
 <resources>
     <string name="app_name">BookTest</string>
     <string name="btn_text_search">search</string>
+    <string name="book_title">Type the book title</string>
+    <string-array name="book_print_type">
+        <item>
+            all
+        </item>
+        <item>
+            books
+        </item>
+        <item>
+            magazine
+        </item>
+    </string-array>
+
+    <string-array name="book_filter">
+        <item>
+            ebooks
+        </item>
+        <item>
+            fre-ebooks
+        </item>
+        <item>
+            full
+        </item>
+        <item>
+            paid-ebooks
+        </item>
+    </string-array>
 </resources>

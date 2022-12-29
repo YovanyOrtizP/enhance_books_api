@@ -10,8 +10,8 @@ interface BookService {
     @GET(ENDPOINT)
     fun getNextBookPage(
         @Query(PARAM_Q) bookTitle:String,
-        @Query(PARAM_PRINT_TYPE) bookType: String,
         @Query(PARAM_FILTER) bookFilter: String,
+        @Query(PARAM_PRINT_TYPE) bookType: String,
         @Query(PARAM_START_INDEX) pageIndex: Int
     ):Call<BookResponse>
 }
